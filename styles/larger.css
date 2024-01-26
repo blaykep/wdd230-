@@ -1,11 +1,12 @@
-@media screen and (min-width: 640px) {}
+@media only screen and (min-width: 38rem) {
 
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-}
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 10px;
+    }
 
-/*nav ul li {
-    flex: 1 1 100%;
-
+    main section {
+        box-shadow: 1px 1px 10px black;
+    }
 }
